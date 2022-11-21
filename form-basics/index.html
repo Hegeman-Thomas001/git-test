@@ -10,24 +10,55 @@
 </head>
 
 <body>
-  <form action="#" method="post">
-    <ul>
+  <form action="#" method="post" class="contact-form">
+    <ul class="contact-ul">
       <li>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" value="John Doe" />
+        <label for="name" class="contact-label">Name:</label>
+        <input type="text" id="name" name="user_name" value="John Doe" class="contact-input" />
       </li>
       <li>
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" value="email@email.com" />
+        <label for="mail" class="contact-label">Email:</label>
+        <input type="email" id="mail" name="user_email" value="email@email.com" class="contact-input" />
       </li>
       <li>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message">Enter your message here, thanks!</textarea>
+        <label for="msg" class="contact-label">Message:</label>
+        <textarea id="msg" name="user_message" class="contact-textarea">Enter your message here, thanks!</textarea>
       </li>
-      <li class="button">
-        <button type="submit">Send your message</button>
+      <li class="contact-li-btn">
+        <button type="submit" class="contact-btn">Send your message</button>
       </li>
     </ul>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>Shirt Size</legend>
+
+      <div>
+        <input type="radio" name="size" id="size_s" value="small" />
+        <label for="size_s">Small</label>
+      </div>
+
+      <div>
+        <input type="radio" name="size" id="size_m" value="medium" />
+        <label for="size_m">Medium</label>
+      </div>
+
+      <div>
+        <input type="radio" name="size" id="size_l" value="large" />
+        <label for="size_l">Large</label>
+      </div>
+
+      <div>
+        <input type="radio" name="size" id="size_xl" value="x_large" />
+        <label for="size_xl">XL</label>
+      </div>
+
+      <div>
+        <input type="radio" name="size" id="size_xxl" value="xx_large" />
+        <label for="size_xxl">XXL</label>
+      </div>
+    </fieldset>
   </form>
 </body>
 
