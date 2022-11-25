@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  /* grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px; */
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 1rem 2rem;
+}
+
+.house {
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+  /* grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr; */
+}
+
+.sec-br,
+.gi-br {
+  border: 2px solid black;
+}
+
+.gi-br {
+  padding: 1rem;
+  text-align: center;
+}
+
+#living-room {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#bathroom {
+  grid-area: 3 / 1 / 6 / 2;
+}
+
+#bedroom {
+  grid-area: 3 / 2 / 7 / 3;
+}
+
+#closet {
+  grid-area: 6 / 1 / 7 / 2;
+}
+
+#kitchen {
+  grid-area: 3 / 3 / 7 / 5;
+}
+
+#master {
+  grid-area: 3 / 5 / 7 / 7;
+}
