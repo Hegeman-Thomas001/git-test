@@ -1,0 +1,33 @@
+body {
+  background: rgb(53, 53, 53);
+}
+
+h1 {
+  padding: 0 5px 5px 5px;
+  margin: 5px 0 0 0;
+  background: rgba(224, 2, 224, 1);
+  color: lightblue;
+}
+
+h2 {
+  padding: 20px 0;
+  border-top: 2px solid darkgreen;
+  border-bottom: 2px solid darkgreen;
+  background: orange;
+}
+
+section {
+  border: 5px solid blue;
+  height: 300px;
+  margin: 500px 0 0 0;
+}
+
+span {
+  border: 1px solid yellow;
+  padding: 5px;
+  margin: 5px;
+}
+
+p, li {
+  color: rgb(176, 176, 176);
+}
