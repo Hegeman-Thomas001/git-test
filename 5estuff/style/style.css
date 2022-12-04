@@ -54,17 +54,21 @@ table {
   flex-wrap: wrap;
   height: 300px;
   justify-content: space-around;
-  width: 200px;
+	align-items: center;
+  width: 300px;
 }
 
 .stats-input {
+	font-size: 1.8rem;
   height: 20%;
-  margin: 0 0 10px 0;
-  width: 35%;
+  margin: 0 10px 10px 0;
+	text-align: center;
+  width: 25%;
 }
 
 .stats-label {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+	height: 15%;
   text-align: right;
-	width: 60%;
+	width: 50%;
 }
