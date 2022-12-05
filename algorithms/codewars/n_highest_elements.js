@@ -1,4 +1,3 @@
-//
 function largest(n, xs) {
   // Find the n highest elements in a list
   const arrSorted = xs.sort((a, b) => b - a);
